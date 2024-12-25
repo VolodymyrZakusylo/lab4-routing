@@ -8,7 +8,8 @@ const Step2 = () => {
       <div>
         <h2>Step 2</h2>
         <p>Ви на другому степі степперу</p>
-        <button onClick={() => navigate('/')}>Повернутися на перший</button>
+        <button onClick={() => navigate('/step3')}>Наступний степ</button>
+        <button onClick={() => navigate('/')}>Повернутися на попередній степ</button>
       </div>
     );
   };

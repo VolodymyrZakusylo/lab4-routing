@@ -6,9 +6,9 @@ const Step1 = () => {
 
   return (
     <div>
-      <h4>Step 1</h4>
+      <h2>Step 1</h2>
       <p>Ви на першому степі степперу</p>
-      <button onClick={() => navigate('/step2')}>Next</button>
+      <button onClick={() => navigate('/step2')}>Наступний степ</button>
     </div>
   );
 };
